@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeleClinic - Online-Arztbesuche per Videosprechstunde</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iIzAwNkZGRiIvPgo8cGF0aCBkPSJNMjAgMTJMMjggMjBMMjAgMjhMMTIgMjBMMjAgMTJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="TeleClinic Logo">
+                    <span class="logo-text">TeleClinic</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#how-it-works" class="nav-link">So funktioniert's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Ratgeber</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#for-doctors" class="nav-link">Für Ärzte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#for-pharmacies" class="nav-link">Für Apotheken</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#about" class="nav-link">Unternehmen <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#about">Über Uns</a></li>
+                            <li><a href="#careers">Karriere</a></li>
+                            <li><a href="#press">Presse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="btn-login">Einloggen</button>
+                    <button class="btn-primary">Behandlung starten</button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Tschüss Wartezimmer.<br>Hallo Online-Arzt.</h1>
+                <p class="hero-subtitle">Ärztinnen und Ärzte behandeln Sie persönlich per Videosprechstunde:</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large">Behandlung starten</button>
+                    <button class="btn-secondary btn-large">Behandlung auswählen</button>
+                </div>
+                <div class="hero-options">
+                    <div class="option-item">
+                        <i class="fas fa-check"></i>
+                        <span>Nur Symptome abklären</span>
+                    </div>
+                    <div class="option-item">
+                        <i class="fas fa-check"></i>
+                        <span>Krankschreibung* anfragen</span>
+                    </div>
+                    <div class="option-item">
+                        <i class="fas fa-check"></i>
+                        <span>Rezept* anfragen</span>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">von 5 Sternebewertung</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100.000+</span>
+                        <span class="stat-label">Bewertungen</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <img src="iPhone 17 Pro.png" alt="TeleClinic App Interface" style="width: 900px; height: auto; margin-left: -120px; margin-right: -200px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">So einfach funktioniert's</h2>
+                <p class="section-subtitle">Medizinische Versorgung in drei einfachen Schritten</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <span class="step-number">1</span>
+                    </div>
+                    <h3 class="step-title">Wunschtermin wählen</h3>
+                    <p class="step-description">Beantworten Sie vorab einige Fragen zu Ihren Symptomen.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <span class="step-number">2</span>
+                    </div>
+                    <h3 class="step-title">Arzt direkt online sprechen</h3>
+                    <p class="step-description">In wenigen Minuten wird Ihre Anfrage von einem Arzt oder einer Ärztin für ein Videogespräch übernommen.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <span class="step-number">3</span>
+                    </div>
+                    <h3 class="step-title">Dokumente digital erhalten</h3>
+                    <p class="step-description">Anschließend erhalten Sie nach ärztlichem Ermessen Krankschreibung und Rezept per App.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Help Section -->
+    <section class="quick-help">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ihre schnelle Hilfe bei</h2>
+                <p class="section-subtitle">Sofortige Unterstützung bei häufigen Gesundheitsproblemen</p>
+            </div>
+            <div class="conditions-grid">
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <span class="condition-name">Heuschnupfen</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-virus"></i>
+                    </div>
+                    <span class="condition-name">Coronavirus</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <span class="condition-name">Blasenentzündung</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-user-injured"></i>
+                    </div>
+                    <span class="condition-name">Gürtelrose</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-toilet-paper"></i>
+                    </div>
+                    <span class="condition-name">Durchfall</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <span class="condition-name">Erektionsstörungen</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <span class="condition-name">Verhütung</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-head-side-cough"></i>
+                    </div>
+                    <span class="condition-name">Halsschmerzen</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-dizzy"></i>
+                    </div>
+                    <span class="condition-name">Übelkeit</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-cloud-rain"></i>
+                    </div>
+                    <span class="condition-name">Burnout</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <span class="condition-name">Erkältung</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-user-times"></i>
+                    </div>
+                    <span class="condition-name">Nackenschmerzen</span>
+                    <i class="fas fa-chevron-right condition-arrow"></i>
+                </div>
+            </div>
+            <div class="quick-help-cta">
+                <button class="btn-primary btn-large">Alle Behandlungen</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Leistungen im Überblick</h2>
+                <p class="section-subtitle">Umfassende medizinische Versorgung digital</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="service-title">Online Arzttermin</h3>
+                    <p class="service-description">Persönliche Videosprechstunde mit lizenzierten Ärzten</p>
+                    <ul class="service-features">
+                        <li>Videokonsultation</li>
+                        <li>Medizinische Beratung</li>
+                        <li>Rezept nach Bedarf</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="service-title">Medikamente liefern lassen</h3>
+                    <p class="service-description">Rezepte direkt an Ihre Wunschapotheke senden</p>
+                    <ul class="service-features">
+                        <li>Apothekenauswahl</li>
+                        <li>Lieferung nach Hause</li>
+                        <li>E-Rezept Integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-medical"></i>
+                    </div>
+                    <h3 class="service-title">Elektronisches Rezept*</h3>
+                    <p class="service-description">Digitale Rezepte direkt in der App erhalten</p>
+                    <ul class="service-features">
+                        <li>Kassenrezept</li>
+                        <li>Privatrezept</li>
+                        <li>Empfehlungsrezept</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3 class="service-title">Krankschreibung* per App</h3>
+                    <p class="service-description">Digitale Arbeitsunfähigkeitsbescheinigung</p>
+                    <ul class="service-features">
+                        <li>AU-Bescheinigung</li>
+                        <li>Direkt in der App</li>
+                        <li>Arbeitgeber-Benachrichtigung</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="service-title">Kurzattest für Gesundheitsapp</h3>
+                    <p class="service-description">Digitale Gesundheitszertifikate und Atteste</p>
+                    <ul class="service-features">
+                        <li>Gesundheitszertifikate</li>
+                        <li>Digitale Atteste</li>
+                        <li>App-Integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title">TeleClinic für Familien</h3>
+                    <p class="service-description">Medizinische Versorgung für die ganze Familie</p>
+                    <ul class="service-features">
+                        <li>Familienprofile</li>
+                        <li>Kinderbehandlung</li>
+                        <li>Terminkoordination</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-content">
+                <div class="features-text">
+                    <h2 class="section-title">Warum TeleClinic wählen?</h2>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="feature-content">
+                                <h3>Sicher & Privat</h3>
+                                <p>Ihre medizinischen Daten sind mit Bank-Level-Sicherheit und DSGVO-Konformität geschützt</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="feature-content">
+                                <h3>Verfügbar 24/7</h3>
+                                <p>Erhalten Sie medizinische Versorgung wann immer Sie sie brauchen, Tag und Nacht</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <div class="feature-content">
+                                <h3>Erschwinglich</h3>
+                                <p>Sparen Sie Geld mit transparenter Preisgestaltung und ohne versteckte Gebühren</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-user-md"></i>
+                            <div class="feature-content">
+                                <h3>Lizenzierte Ärzte</h3>
+                                <p>Alle unsere Ärzte sind lizenziert und erfahrene Fachkräfte</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-image">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjBGNEY5Ii8+CjxyZWN0IHg9IjUwIiB5PSI1MCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIHJ4PSIxMCIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMTIwIiBjeT0iMTIwIiByPSIyMCIgZmlsbD0iIzAwNkZGRiIvPgo8cmVjdCB4PSIxNjAiIHk9IjExMCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIyMCIgcng9IjUiIGZpbGw9IiMwMDZGRkYiLz4KPHJlY3QgeD0iMTYwIiB5PSIxNDAiIHdpZHRoPSI4MCIgaGVpZ2h0PSIyMCIgcng9IjUiIGZpbGw9IiMwMDZGRkYiLz4KPC9zdmc+Cg==" alt="Security features illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Was unsere Patienten sagen</h2>
+                <p class="section-subtitle">Echte Geschichten von zufriedenen Patienten</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"TeleClinic hat mir so viel Zeit gespart! Ich konnte ein Rezept für meine Nasennebenhöhlenentzündung erhalten, ohne das Haus zu verlassen. Der Arzt war professionell und gründlich."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Müller</h4>
+                            <span>Patientin</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Als berufstätige Mutter war TeleClinic ein Lebensretter. Ich kann medizinische Beratung für meine Kinder erhalten, ohne ihre Routine oder meine zu stören."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Weber</h4>
+                            <span>Elternteil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Die psychische Gesundheitsunterstützung, die ich über TeleClinic erhalten habe, war außergewöhnlich. Meine Therapeutin war verständnisvoll und half mir durch eine schwere Zeit."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Schmidt</h4>
+                            <span>Patientin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Bereit loszulegen?</h2>
+                <p class="cta-subtitle">Schließen Sie sich Tausenden von Patienten an, die TeleClinic für ihre medizinische Versorgung vertrauen</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary btn-large">Behandlung starten</button>
+                    <button class="btn-secondary btn-large">Mehr erfahren</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iIzAwNkZGRiIvPgo8cGF0aCBkPSJNMjAgMTJMMjggMjBMMjAgMjhMMTIgMjBMMjAgMTJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="TeleClinic Logo">
+                        <span class="logo-text">TeleClinic</span>
+                    </div>
+                    <p class="footer-description">Zugängliche Gesundheitsversorgung durch Technologie</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Leistungen</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Allgemeinmedizin</a></li>
+                        <li><a href="#">Kardiologie</a></li>
+                        <li><a href="#">Psychiatrie</a></li>
+                        <li><a href="#">Pädiatrie</a></li>
+                        <li><a href="#">Dermatologie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Unternehmen</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Über uns</a></li>
+                        <li><a href="#">Für Ärzte</a></li>
+                        <li><a href="#">Für Apotheken</a></li>
+                        <li><a href="#">Karriere</a></li>
+                        <li><a href="#">Presse</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Hilfe-Center</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">AGB</a></li>
+                        <li><a href="#">DSGVO-Konformität</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TeleClinic. Alle Rechte vorbehalten.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
